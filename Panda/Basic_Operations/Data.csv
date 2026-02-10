@@ -1,0 +1,17 @@
+EmpID,Name,Department,Age,Salary,City
+101,Amit,IT,28,45000,Bhopal
+102,Riya,HR,32,52000,Indore
+103,John,Finance,29,60000,Pune
+104,Pooja,IT,26,48000,Bhopal
+105,Rahul,Sales,35,65000,Delhi
+106,Neha,HR,30,54000,Indore
+107,Karan,Finance,33,70000,Mumbai
+108,Anjali,IT,27,50000,Bhopal
+109,Vikas,Sales,38,72000,Delhi
+110,Sneha,HR,31,56000,Pune
+111,Arjun,Finance,34,68000,Mumbai
+112,Meena,IT,25,42000,Indore
+113,Rohit,Sales,36,75000,Delhi
+114,Kavita,HR,29,51000,Bhopal
+115,Suresh,Finance,40,80000,Mumbai
+,,,,,
