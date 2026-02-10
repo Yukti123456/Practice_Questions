@@ -1,0 +1,18 @@
+Q.2- Read A CSV File and display the first 10 rows, last 5 rows and random 7 rows.
+
+import pandas as pd
+
+# Read CSV file
+df = pd.read_csv("data.csv")
+
+# Display first 10 rows
+print("First 10 rows:")
+print(df.head(10))
+
+# Display random 7 rows
+print("\nRandom 7 rows:")
+print(df.sample(7))
+
+#Display Last 5 rows
+print("\nLast 5 Rows:")
+print(df.tail(5))
