@@ -1,0 +1,8 @@
+#Sort a list of tuples by the second element: [(1,5)(2,3),(3,8),(4,1)].
+
+data = [(1,5), (2,3), (3,8), (4,1)]
+
+# Sort by second element
+sorted_data = sorted(data, key=lambda x: x[1])
+
+print(sorted_data)
