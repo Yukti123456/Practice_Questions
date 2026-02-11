@@ -3,8 +3,8 @@ Q1- Validate email addresses: Must contain @ Symbol, Domain, and extension.
 
 import re
 emails = [
-    "test@gmail.com",
-    "abc@company.org",
+    "shreya.rajput@gmail.com",
+    "abc@yahoo.org",
     "user@domain.in",
     "wrongemail.com",
     "user@domain"
