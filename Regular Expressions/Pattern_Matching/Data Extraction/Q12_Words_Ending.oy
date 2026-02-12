@@ -1,0 +1,16 @@
+#Q12-Find all words ending with 'ing' or 'ed'.
+import re
+
+Text = """Yesterday, Riya was preparing for her upcoming coding interview.
+          She was practicing advanced algorithms and reviewing previously 
+          completed projects.
+
+          During the evening, she started solving challenging problems and 
+          improved her debugging skills.She completed several pending tasks 
+          and uploaded the finished assignment"""
+
+Pattern = r'\b[A-Za-z]+(?:ing|ed)\b'
+matches = re.findall(Pattern, Text)
+print("Words end with ing or ed are :\n ")
+for Word in matches:
+    print(Word)
