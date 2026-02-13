@@ -10,7 +10,7 @@ Text ="""Riya used her card 1234 5678 9012 3456 for shopping.
       1234 567 8901 2345,
       1234-5678-9012."""
       
-Pattern = r'\b\d{4}[\s-]\d{4}[\s-]\d{4}[\s-]\d{4}\b'
+Pattern = r'\b(?:\d{4}[-\s]){3}\d{4}\b'
 
 Matches= re.findall(Pattern,Text)
 
