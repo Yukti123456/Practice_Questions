@@ -1,0 +1,28 @@
+#Q.3- Handle missing values replace Nan in numerical columns with mean and categorial columns with mode.
+
+import pandas as pd
+import numpy as np
+
+# Create sample dataframe with missing values
+data = {
+    "Name": ["Amit", "Sneha", "Ravi", None, "Karan"],
+    "Department": ["IT", "HR", None, "IT", "Marketing"],
+    "Salary": [50000, None, 60000, 52000, None],
+    "Experience": [2, 3, None, 1, 4]
+}
+df = pd.DataFrame(data)
+print("Original DataFrame:\n")
+print(df)
+
+# Step 1: Fill numeric columns with mean
+numeric_cols = df.select_dtypes(include=["number"]).columns
+df[numeric_cols] = df[numeric_cols].fillna(df[numeric_cols].mean())
+
+# Step 2: Fill categorical columns with mode
+categorical_cols = df.select_dtypes(include=["object", "string"]).columns
+
+for col in categorical_cols:
+    df[col] = df[col].fillna(df[col].mode()[0])
+print("\nAfter Handling Missing Values:\n")
+print(df)
+
