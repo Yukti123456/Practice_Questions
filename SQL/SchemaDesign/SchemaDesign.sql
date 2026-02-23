@@ -50,7 +50,7 @@ INSERT INTO employees VALUES
 INSERT INTO projects VALUES
 (1, 'Banking System', '2023-01-01', NULL),
 (2, 'E-commerce App', '2022-05-01', NULL),
-(3, 'HR Portal', '2021-03-15', NULL);
+(3, 'HR Portal', '2021-03-15', '2025-02-01');
 INSERT INTO employee_projects VALUES
 (101,1,120),
 (101,2,80),
