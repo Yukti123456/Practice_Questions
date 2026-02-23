@@ -54,6 +54,7 @@ INSERT INTO projects VALUES
 INSERT INTO employee_projects VALUES
 (101,1,120),
 (101,2,80),
+(101,3,30),
 (102,2,100),
 (103,1,200),
 (104,3,90),
@@ -63,4 +64,4 @@ INSERT INTO employee_projects VALUES
 (107,3,40),
 (108,2,70),
 (109,1,110),
-(110,2,95);
+
